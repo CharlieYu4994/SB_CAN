@@ -177,4 +177,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "5ec5564b-ca49-46fd-b700-f335c2121fa4")
 	)
+	(model "${KIPRJMOD}/Library/Library.3dshapes/L_Changjiang_FTC303020D.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

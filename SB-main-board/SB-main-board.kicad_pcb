@@ -534,7 +534,7 @@
 			(pintype "passive")
 			(uuid "0e65c0fa-31e4-4e41-ac30-430e0081ec82")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Panasonic_EVQPUJ_EVQPUA.wrl"
+		(model "${KIPRJMOD}/Library/Library.3dshapes/Panasonic_EVQPUJ_EVQPUA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -542,7 +542,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 180)
 			)
 		)
 	)
@@ -5932,7 +5932,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "040f9e53-b72d-4d43-803b-4b0312d7516e")
+			(uuid "e7945f69-eeaa-4003-af2d-59699da9315e")
 			(effects
 				(font
 					(size 1 1)
@@ -5945,7 +5945,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "744a3e90-5216-4832-a0c6-aa33a3c625fe")
+			(uuid "e76e9fcf-5ccd-43cb-8b3d-48c4b05749ed")
 			(effects
 				(font
 					(size 1 1)
@@ -5958,7 +5958,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de2b71d4-c09f-45bb-a81b-85e5ac8650c0")
+			(uuid "ca399a11-3fa5-4c22-afdc-6ea7e438e0eb")
 			(effects
 				(font
 					(size 1 1)
@@ -5971,7 +5971,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9e6d82c-63d5-44b5-9e2c-078bb54b3d03")
+			(uuid "d8e07086-750a-4a8b-8b37-91bc88aee7e2")
 			(effects
 				(font
 					(size 1 1)
@@ -5984,7 +5984,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b11a1b8-93a9-4b47-b92a-ee57f47aa24e")
+			(uuid "f4b26cf0-443a-4649-83bb-cfb019003419")
 			(effects
 				(font
 					(size 1 1)
@@ -6005,7 +6005,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "14b6624b-f1e4-4163-8c12-96abf269841b")
+			(uuid "452a7647-f4b1-435d-8d8b-cc54ac67abe4")
 		)
 		(fp_line
 			(start -1.6 1.6)
@@ -6015,7 +6015,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4e18e9c0-714a-4990-a84a-dbe4b2e16ef0")
+			(uuid "c5535b60-ee19-4c70-9175-216b1d99329b")
 		)
 		(fp_line
 			(start 1.6 1.6)
@@ -6025,7 +6025,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5d44d317-7b5f-430a-bd05-e2c22be16f6b")
+			(uuid "0a6b279e-89b6-486e-ab1c-84eafe5c48ed")
 		)
 		(fp_line
 			(start -1.6 -1.45)
@@ -6035,7 +6035,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "58064b47-009d-497b-8503-db7463f0e37e")
+			(uuid "f6e4c192-6a7c-44bc-93f5-0778ce8ea648")
 		)
 		(fp_line
 			(start -1.6 -1.6)
@@ -6045,7 +6045,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dc1e1a95-cbab-473c-be2c-c9e97b46cbff")
+			(uuid "d83e3ac5-428c-47c8-ad1c-acd26fab385d")
 		)
 		(fp_line
 			(start 1.6 -1.6)
@@ -6055,7 +6055,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f4e457d4-b12f-4792-8055-69182583c122")
+			(uuid "9c96bb6e-54a7-4f65-a693-6677e5cd1e73")
 		)
 		(fp_rect
 			(start -1.6 -1.6)
@@ -6066,7 +6066,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "d28383a1-5ad8-4fd4-aabf-6bf15b5edb27")
+			(uuid "164dd7f7-c4ee-4044-baa8-9fc6a61804b2")
 		)
 		(fp_rect
 			(start -1.5 -1.5)
@@ -6077,13 +6077,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "0a4fe030-9331-49ec-85d1-dad2e8e0ad4a")
+			(uuid "50e1e3cc-1915-465c-87d7-5b94ad32522b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "133ce69f-9ba3-4706-aab5-75baeb4323cd")
+			(uuid "7e7678f2-15d9-4862-ba46-45ee318558c8")
 			(effects
 				(font
 					(size 1 1)
@@ -6099,7 +6099,7 @@
 			(net 5 "Net-(U4-SW)")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ab517f13-2bc0-458e-a737-076820930464")
+			(uuid "29a62f5f-5540-45ae-aa99-15c4acde1e4a")
 		)
 		(pad "2" smd roundrect
 			(at 0.95 0 270)
@@ -6109,7 +6109,18 @@
 			(net 7 "+5V")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a6343bd0-d63b-4c1c-923e-29c3ed684a09")
+			(uuid "3b0526d5-0413-4263-9b5f-8e4f8b65b44c")
+		)
+		(model "${KIPRJMOD}/Library/Library.3dshapes/L_Changjiang_FTC303020D.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Library:PAD"
@@ -6121,7 +6132,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a2f81791-bf27-4df5-a061-a69049d32c2d")
+			(uuid "99c6cb19-00bb-4c15-9581-2195eab74ad7")
 			(effects
 				(font
 					(size 1 1)
@@ -6134,7 +6145,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb900fb0-28a6-412a-9651-c419ce35e561")
+			(uuid "4401b162-0d5c-42a7-a611-89f5679fd117")
 			(effects
 				(font
 					(size 1 1)
@@ -6147,7 +6158,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19cb8b31-dbea-4ca3-9387-50ac42002915")
+			(uuid "83235c07-1e2d-4a56-b094-ff3d4e6c7b51")
 			(effects
 				(font
 					(size 1 1)
@@ -6160,7 +6171,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "131eaf03-863b-4b07-bcb6-36cf1b41b12f")
+			(uuid "55c98f8c-1b1a-4c5d-9327-54d301d62026")
 			(effects
 				(font
 					(size 1 1)
@@ -6173,7 +6184,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "def1f35c-99da-4af1-9fb1-3721974f6ebe")
+			(uuid "74eb07d1-35dc-4ee4-abfb-e3251bfb79f6")
 			(effects
 				(font
 					(size 1 1)
@@ -6195,7 +6206,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "da60bb14-123d-4e04-a242-ada240649776")
+			(uuid "39c90704-bdd1-4b5f-8eb5-bc1f99fc0a83")
 		)
 		(pad "1" smd roundrect
 			(at 0 0)
@@ -6205,7 +6216,18 @@
 			(net 6 "+24V")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "e4489ffe-5307-4db9-b642-de4c69ddd5fa")
+			(uuid "83043b77-8c4f-4629-a122-3b28554e5b0f")
+		)
+		(model "${KIPRJMOD}/Library/Library.3dshapes/pad.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
@@ -12142,7 +12164,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ca4872dc-6639-430c-a83d-ac162242bfa5")
+			(uuid "176f5a83-dbe4-40a4-9476-ff1cb09e8cdd")
 			(effects
 				(font
 					(size 1 1)
@@ -12155,7 +12177,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1e955ef-55a9-4067-b458-2d654c5d498a")
+			(uuid "07e1682e-63aa-47d0-86ec-b463620f915d")
 			(effects
 				(font
 					(size 1 1)
@@ -12168,7 +12190,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21db23b2-bda6-48b7-a8b9-9063ef0bbac0")
+			(uuid "b72a1691-3679-475a-875d-4cba565721e6")
 			(effects
 				(font
 					(size 1 1)
@@ -12181,7 +12203,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "843a7129-6da1-4e8e-b5ac-1d9ce408c182")
+			(uuid "8a4937d2-0adb-4b75-9eff-557fe263987d")
 			(effects
 				(font
 					(size 1 1)
@@ -12194,7 +12216,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d21bbe4a-64ee-41d1-a816-a2f810170ed2")
+			(uuid "3c863af3-e143-43bd-9d7d-d67ab1976d1c")
 			(effects
 				(font
 					(size 1 1)
@@ -12216,7 +12238,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "20b15d7f-6995-418e-8278-b37fb2a3dc76")
+			(uuid "08cd345c-c8e4-41a0-8c1f-868094b78b02")
 		)
 		(pad "1" smd roundrect
 			(at 0 0)
@@ -12226,7 +12248,18 @@
 			(net 101 "Net-(D4-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "edae7b75-8ab5-481f-9dd0-b05292d818c2")
+			(uuid "152e7a57-7a22-459e-890d-e31be55c7c1c")
+		)
+		(model "${KIPRJMOD}/Library/Library.3dshapes/pad.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"

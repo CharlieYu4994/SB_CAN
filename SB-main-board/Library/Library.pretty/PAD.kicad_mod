@@ -97,4 +97,15 @@
 		(roundrect_rratio 0.119047619)
 		(uuid "2ddbffef-5779-4987-8bdb-98173dde9f80")
 	)
+	(model "${KIPRJMOD}/Library/Library.3dshapes/pad.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
