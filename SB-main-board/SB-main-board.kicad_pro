@@ -1,6 +1,26 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "主图",
+        "ww": 1.0,
+        "wx": -25.542251586914063,
+        "wy": 17.874094009399414,
+        "wz": -9.258132934570313,
+        "xw": 0.0,
+        "xx": 0.9323949217796326,
+        "xy": 0.08897936344146729,
+        "xz": -0.35031789541244507,
+        "yw": 0.0,
+        "yx": -0.17026090621948242,
+        "yy": 0.9630790948867798,
+        "yz": -0.20854291319847107,
+        "zw": 0.0,
+        "zx": 0.31882786750793457,
+        "zy": 0.2540895342826843,
+        "zz": 0.9131196737289429
+      }
+    ],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_fields": false,
@@ -498,12 +518,12 @@
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
-        "name": "Hi_Power",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.016,
-        "via_diameter": 1.0,
-        "via_drill": 0.5,
+        "track_width": 0.254,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -515,44 +535,10 @@
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
-        "name": "Hi_Signal",
+        "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1778,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1016,
-        "diff_pair_gap": 0.1778,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.127,
-        "line_style": 0,
-        "microvia_diameter": 0.0,
-        "microvia_drill": 0.0,
-        "name": "Lo_Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1016,
-        "diff_pair_gap": 0.1778,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.127,
-        "line_style": 0,
-        "microvia_diameter": 0.0,
-        "microvia_drill": 0.0,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -583,14 +569,10 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "\\+3V3|\\+1V1|\\+5V"
+        "pattern": "\\+.*V.?"
       },
       {
-        "netclass": "Hi_Power",
-        "pattern": "+24V"
-      },
-      {
-        "netclass": "Hi_Signal",
+        "netclass": "Signal",
         "pattern": "/USB_D."
       },
       {
@@ -602,8 +584,12 @@
         "pattern": "GND"
       },
       {
-        "netclass": "ADC",
+        "netclass": "Power",
         "pattern": "/HEAT"
+      },
+      {
+        "netclass": "ADC",
+        "pattern": "/ADC.*|/TEMP_A|/FS"
       }
     ]
   },
