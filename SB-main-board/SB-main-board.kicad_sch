@@ -3935,6 +3935,307 @@
 				)
 			)
 		)
+		(symbol "Library:LIS2DW12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LIS2DW12"
+				(at -7.62 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-Axis MEMS Accelerometer, 2/4/8/16g range, I2C/SPI, LGA-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "3-axis accelerometer i2c spi mems"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LGA*3x5mm*P0.8mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LIS2DW12_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LIS2DW12_1_1"
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPC" input line)
+				)
+				(pin power_in line
+					(at 5.08 12.7 270)
+					(length 2.54)
+					(name "VDD_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADDR" input line)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SDI" input line)
+					(alternate "SDO" output line)
+				)
+				(pin no_connect line
+					(at -5.08 12.7 270)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 90)
+					(length 2.54)
+					(name "RES"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Library:TMC2208-LA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6865,339 +7166,6 @@
 				)
 			)
 		)
-		(symbol "Sensor_Motion:ADXL343"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ADXL343"
-				(at -7.62 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-Axis MEMS Accelerometer, 2/4/8/16g range, I2C/SPI, LGA-14"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "3-axis accelerometer i2c spi mems"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*LGA*3x5mm*P0.8mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ADXL343_0_1"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ADXL343_1_1"
-				(pin power_in line
-					(at 5.08 12.7 270)
-					(length 2.54)
-					(name "Vdd_I/O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 -10.16 90)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -12.7 90)
-					(length 2.54)
-					(name "RES"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "SDO/ADDR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "SDA/SDI/SDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "SCL/SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 12.7 270)
-					(length 2.54)
-					(name "RES"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "Vs"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "INT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "INT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Sensor_Temperature:MAX31865xTP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9185,6 +9153,12 @@
 		(uuid "659c7e2c-05d8-47e1-bf70-2dfccaa423d5")
 	)
 	(junction
+		(at 214.63 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "701852f1-27c8-40c2-9b27-1bd4fbaf1648")
+	)
+	(junction
 		(at 31.75 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9201,6 +9175,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c99b50a-af2f-4482-b70d-1e45ba555b0c")
+	)
+	(junction
+		(at 57.15 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b63adef-5d2b-4eb6-951e-f2ece95e6502")
 	)
 	(junction
 		(at 109.22 199.39)
@@ -9315,6 +9295,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c174f434-5042-40c2-80df-a3a945203216")
+	)
+	(junction
+		(at 62.23 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c591d3bb-521e-48b3-b374-d5705eaf3cb9")
 	)
 	(junction
 		(at 102.87 118.11)
@@ -9497,10 +9483,6 @@
 	(no_connect
 		(at 45.72 224.79)
 		(uuid "c7451747-74d9-4144-9ded-85de4c8f60dd")
-	)
-	(no_connect
-		(at 219.71 151.13)
-		(uuid "c8a85cf8-c048-4c01-b5c7-21dc8a50da1e")
 	)
 	(no_connect
 		(at 209.55 125.73)
@@ -9956,6 +9938,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 223.52) (xy 57.15 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236ce305-6332-4aea-8f23-127d2c8e9ab4")
+	)
+	(wire
+		(pts
 			(xy 191.77 135.89) (xy 201.93 135.89)
 		)
 		(stroke
@@ -10253,6 +10245,16 @@
 			(type default)
 		)
 		(uuid "351cef83-0cf5-4676-8c3e-39a6c1db3166")
+	)
+	(wire
+		(pts
+			(xy 59.69 223.52) (xy 62.23 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364eaf96-fb28-4164-9523-3a9d37770a42")
 	)
 	(wire
 		(pts
@@ -10904,6 +10906,16 @@
 		)
 		(uuid "53b2b4e7-93d7-4425-9327-6fc2614cd3d8")
 	)
+	(wire
+		(pts
+			(xy 57.15 212.09) (xy 57.15 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54252fdf-80a6-4d2d-a394-3bf909605f39")
+	)
 	(polyline
 		(pts
 			(xy 240.03 12.7) (xy 240.03 107.95)
@@ -11223,16 +11235,6 @@
 			(type default)
 		)
 		(uuid "63099151-8872-43a7-b717-9ababb7ad620")
-	)
-	(wire
-		(pts
-			(xy 62.23 207.01) (xy 62.23 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "636d0e2b-47e0-49df-8742-3a77fb57e587")
 	)
 	(wire
 		(pts
@@ -11866,6 +11868,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 152.4) (xy 214.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830545d1-abbe-46d2-9aee-63ef14a6a31e")
+	)
+	(wire
+		(pts
 			(xy 72.39 261.62) (xy 77.47 261.62)
 		)
 		(stroke
@@ -12326,6 +12338,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 223.52) (xy 57.15 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98711f42-3228-4cfa-8942-df07d291b0d9")
+	)
+	(wire
+		(pts
 			(xy 46.99 207.01) (xy 62.23 207.01)
 		)
 		(stroke
@@ -12706,6 +12728,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 151.13) (xy 219.71 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add68c66-c3e6-4d67-abbd-c837a6ff851d")
+	)
+	(wire
+		(pts
 			(xy 97.79 24.13) (xy 97.79 25.4)
 		)
 		(stroke
@@ -12793,6 +12825,16 @@
 			(type default)
 		)
 		(uuid "b1f05ea8-df44-4c19-b120-95091b532399")
+	)
+	(wire
+		(pts
+			(xy 62.23 223.52) (xy 62.23 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2217b1e-f46c-4363-89d6-4241c1bc8a9b")
 	)
 	(wire
 		(pts
@@ -13266,6 +13308,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 152.4) (xy 214.63 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1abb826-f5c2-4806-8359-78bfdd885a8f")
+	)
+	(wire
+		(pts
 			(xy 262.89 151.13) (xy 266.7 151.13)
 		)
 		(stroke
@@ -13496,16 +13548,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 212.09) (xy 57.15 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4a998a-a9b4-4033-9ec1-3b6a7f552b40")
-	)
-	(wire
-		(pts
 			(xy 222.25 60.96) (xy 222.25 59.69)
 		)
 		(stroke
@@ -13643,6 +13685,16 @@
 			(type default)
 		)
 		(uuid "e50af95a-cafc-4c87-9cd3-f6a14ca60add")
+	)
+	(wire
+		(pts
+			(xy 54.61 224.79) (xy 54.61 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e590ba84-04b6-48cd-aee8-e773725adf48")
 	)
 	(wire
 		(pts
@@ -13823,6 +13875,16 @@
 			(type default)
 		)
 		(uuid "ec2c6d3f-4ee0-4b24-b191-0451d55f09e8")
+	)
+	(wire
+		(pts
+			(xy 62.23 207.01) (xy 62.23 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd5bbff-97ef-4b4f-a156-ed16c1d95210")
 	)
 	(wire
 		(pts
@@ -14136,6 +14198,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 224.79) (xy 59.69 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef4eb76-3b89-49a6-87bd-57de4eb44a64")
+	)
+	(wire
+		(pts
 			(xy 44.45 45.72) (xy 48.26 45.72)
 		)
 		(stroke
@@ -14253,7 +14325,7 @@
 		(uuid "16df2d1e-b29b-40ba-b9ac-ed2c0eca7e8e")
 	)
 	(label "ADXL_INT1"
-		(at 138.43 35.56 180)
+		(at 138.43 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14869,7 +14941,7 @@
 		(uuid "b6f05eb1-0aa1-4c7a-b43e-91fe8a75764a")
 	)
 	(label "ADXL_INT2"
-		(at 138.43 33.02 180)
+		(at 138.43 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16254,110 +16326,6 @@
 			(project "SB-main-board"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Motion:ADXL343")
-		(at 214.63 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13b49187-f0e0-4511-bc9f-12490a32fa77")
-		(property "Reference" "U8"
-			(at 229.87 132.1114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADXL343"
-			(at 229.87 134.6514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y"
-			(at 214.63 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf"
-			(at 214.63 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-Axis MEMS Accelerometer, 2/4/8/16g range, I2C/SPI, LGA-14"
-			(at 214.63 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "1f1212c0-fcb7-44b5-8eda-09816d67101d")
-		)
-		(pin "13"
-			(uuid "cb9d04b4-0554-4920-bc5a-31cffe9b95d7")
-		)
-		(pin "14"
-			(uuid "9cf64473-a4a0-41d4-a4d1-4449e1d9f6b2")
-		)
-		(pin "5"
-			(uuid "ea0d8bdc-4aea-4c4d-a218-f9bcf4712bad")
-		)
-		(pin "4"
-			(uuid "350683a4-9323-4594-918b-92e19e994c64")
-		)
-		(pin "11"
-			(uuid "78a0c076-f649-43ca-9d6e-4b3f11cdc02e")
-		)
-		(pin "9"
-			(uuid "420b30c8-5e80-4ac9-a383-862079c82ff9")
-		)
-		(pin "3"
-			(uuid "72bb905a-2da3-4ffb-87bb-c5f9b595e11d")
-		)
-		(pin "1"
-			(uuid "7d2fdd35-92ff-4cdb-b0cc-f83824cc2ae6")
-		)
-		(pin "8"
-			(uuid "c2a7d871-1e86-4c0f-887c-37123bf6c039")
-		)
-		(pin "10"
-			(uuid "b5c08d6c-df31-44e8-a2c0-59b56ed7ef77")
-		)
-		(pin "2"
-			(uuid "54de52e7-fe1f-4042-8ff3-2e29be9220b9")
-		)
-		(pin "7"
-			(uuid "b652b61c-3164-4f6b-b296-7464b1a9af43")
-		)
-		(pin "6"
-			(uuid "77308e26-ec74-4edb-99a3-47ef61b30f62")
-		)
-		(instances
-			(project "SB-main-board"
-				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -20665,7 +20633,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 152.4 0)
+		(at 214.63 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20674,7 +20642,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f69e9f4-8837-4585-9a27-886d34c74f03")
 		(property "Reference" "#PWR0106"
-			(at 214.63 158.75 0)
+			(at 214.63 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20683,7 +20651,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 157.48 0)
+			(at 214.63 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20691,7 +20659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 152.4 0)
+			(at 214.63 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20700,7 +20668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 152.4 0)
+			(at 214.63 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20709,7 +20677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 152.4 0)
+			(at 214.63 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24969,7 +24937,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA"
+		(property "Footprint" "Library:Panasonic_EVQPUJ_EVQPUA"
 			(at 53.34 40.64 0)
 			(effects
 				(font
@@ -26455,6 +26423,107 @@
 			(project "SB-main-board"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:LIS2DW12")
+		(at 214.63 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "faef685e-2286-425b-af0c-b02df8af6b6d")
+		(property "Reference" "U8"
+			(at 226.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LIS2DW12"
+			(at 226.06 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-Axis MEMS Accelerometer, 2/4/8/16g range, I2C/SPI, LGA-12"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4676f92-d0ff-4a6f-b4a8-1b9b7d1d7a3b")
+			(alternate "SPC")
+		)
+		(pin "5"
+			(uuid "87a8aefd-27ca-44ae-9475-294450c22d2c")
+		)
+		(pin "6"
+			(uuid "9881c7ea-ffbd-4f6a-8cec-4a33628025c7")
+		)
+		(pin "10"
+			(uuid "3f66e295-9eb7-46e5-9f42-a0f80dbdbf3a")
+		)
+		(pin "3"
+			(uuid "56efd39f-1fe6-43e4-b5e9-cddb38bc32db")
+		)
+		(pin "2"
+			(uuid "807e9fa4-44ec-4545-9e83-bc3863ed61c8")
+		)
+		(pin "4"
+			(uuid "fdff3f25-a394-41ab-9ca0-88f270286011")
+			(alternate "SDI")
+		)
+		(pin "12"
+			(uuid "07b2451e-1fc1-4681-8ab4-84c1cb5995dc")
+		)
+		(pin "7"
+			(uuid "25fa746a-87eb-455f-9413-3fb4c53fff9a")
+		)
+		(pin "11"
+			(uuid "4d91c5d8-5ff0-485a-8fb3-879a7a61515e")
+		)
+		(pin "9"
+			(uuid "129c00f4-74da-4748-aece-ac647a6ba9e7")
+		)
+		(pin "8"
+			(uuid "9ab4bdf0-72fb-49b0-9e06-decd8683eba5")
+		)
+		(instances
+			(project ""
+				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
+					(reference "U8")
 					(unit 1)
 				)
 			)
