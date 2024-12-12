@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.1"
+      "Version": "8.0.4"
     },
-    "CreationDate": "2024-06-02T11:28:52+08:00"
+    "CreationDate": "2024-12-12T19:09:39+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "SB-fan-board",
       "GUID": "53422d66-616e-42d6-926f-6172642e6b69",
-      "Revision": "rev?"
+      "Revision": "B0"
     },
     "Size": {
       "X": 51.6303,
@@ -28,8 +28,8 @@
       "PadToTrack": 0.1016,
       "TrackToTrack": 0.1016,
       "MinLineWidth": 0.127,
-      "TrackToRegion": 0.127,
-      "RegionToRegion": 0.127
+      "TrackToRegion": 0.1016,
+      "RegionToRegion": 0.1016
     }
   ],
   "FilesAttributes": [

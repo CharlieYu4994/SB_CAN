@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "StealthBurner CAN Main")
-		(date "2024-06-02")
-		(rev "A0")
+		(date "2024-12-12")
+		(rev "B0")
 		(company "Lassi-Cat")
 		(comment 1 "Author: Charlie Yu")
 		(comment 4 "CAN toolhead board for StealthBurner")

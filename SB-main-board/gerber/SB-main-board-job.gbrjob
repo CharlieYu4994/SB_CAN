@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.3"
+      "Version": "8.0.4"
     },
-    "CreationDate": "2024-06-25T22:30:56+08:00"
+    "CreationDate": "2024-12-12T19:02:41+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "SB-main-board",
       "GUID": "53422d6d-6169-46e2-9d62-6f6172642e6b",
-      "Revision": "A0"
+      "Revision": "B0"
     },
     "Size": {
       "X": 53.1,
@@ -19,7 +19,8 @@
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
-    "Finish": "Immersion gold"
+    "Finish": "Immersion gold",
+    "ImpedanceControlled": true
   },
   "DesignRules": [
     {
@@ -28,8 +29,8 @@
       "PadToTrack": 0.0762,
       "TrackToTrack": 0.1016,
       "MinLineWidth": 0.127,
-      "TrackToRegion": 0.127,
-      "RegionToRegion": 0.127
+      "TrackToRegion": 0.1016,
+      "RegionToRegion": 0.1016
     },
     {
       "Layers": "Inner",
@@ -37,8 +38,8 @@
       "PadToTrack": 0.0,
       "TrackToTrack": 0.1016,
       "MinLineWidth": 0.127,
-      "TrackToRegion": 0.127,
-      "RegionToRegion": 0.127
+      "TrackToRegion": 0.1016,
+      "RegionToRegion": 0.1016
     }
   ],
   "FilesAttributes": [
@@ -114,6 +115,7 @@
       "Color": "Green",
       "Thickness": 0.01,
       "Material": "Liquid Ink",
+      "DielectricConstant": "3.3",
       "Name": "Top Solder Mask"
     },
     {
@@ -126,6 +128,8 @@
       "Color": "R109G116B75",
       "Thickness": 0.1,
       "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
@@ -139,6 +143,8 @@
       "Color": "R109G116B75",
       "Thickness": 1.24,
       "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
@@ -152,6 +158,8 @@
       "Color": "R109G116B75",
       "Thickness": 0.1,
       "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
       "Name": "In2.Cu/B.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
     },
@@ -165,6 +173,7 @@
       "Color": "Green",
       "Thickness": 0.01,
       "Material": "Liquid Ink",
+      "DielectricConstant": "3.3",
       "Name": "Bottom Solder Mask"
     },
     {
