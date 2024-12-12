@@ -7056,6 +7056,42 @@
 		(layer "B.SilkS")
 		(uuid "c2dd991f-2e1d-4ee0-bb1b-4b3b1e8d6bb8")
 	)
+	(gr_poly
+		(pts
+			(xy 157.854001 87.346) (xy 157.6 87.6) (xy 157.345999 87.346)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ce3fdbe6-1bc9-4b35-a3d3-049165ca0a98")
+	)
+	(gr_poly
+		(pts
+			(xy 165.854001 87.3664) (xy 165.6 87.6204) (xy 165.345999 87.3664)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "cff4d07a-fa60-4dc1-b42f-63de56e8142c")
+	)
+	(gr_poly
+		(pts
+			(xy 172.495999 78.920327) (xy 172.75 78.666327) (xy 173.004001 78.920327)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e4f986cf-b90d-4d52-98c0-5aca04f34675")
+	)
 	(gr_circle
 		(center 190.78 100.258)
 		(end 192.33 100.258)
@@ -7305,6 +7341,45 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f7f23838-1960-4eff-8d73-187a1a603ef5")
+	)
+	(gr_text "NEO"
+		(at 157.6 87.219 270)
+		(layer "F.SilkS")
+		(uuid "12d02d1b-7988-4606-8227-c5eb42250436")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "FAN1"
+		(at 172.75 79.047327 -90)
+		(layer "F.SilkS")
+		(uuid "1d936151-aaa9-4463-b6c2-d9e88e780cd0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "FAN0"
+		(at 165.6 87.2394 270)
+		(layer "F.SilkS")
+		(uuid "f17b4aa4-abb6-45d3-8595-9e014fe93101")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
 	)
 	(segment
 		(start 145.491 76.929)
@@ -10616,5 +10691,17 @@
 				(xy 158.246152 84.807077) (xy 158.321708 84.651667) (xy 158.364219 84.564223) (xy 158.370918 84.558282)
 			)
 		)
+	)
+	(group ""
+		(uuid "6a2213f2-e19f-46d0-9fcf-03430de1fa25")
+		(members "12d02d1b-7988-4606-8227-c5eb42250436" "ce3fdbe6-1bc9-4b35-a3d3-049165ca0a98")
+	)
+	(group ""
+		(uuid "8e7ddc3d-5d33-4e4e-917e-5187a3837d2a")
+		(members "cff4d07a-fa60-4dc1-b42f-63de56e8142c" "f17b4aa4-abb6-45d3-8595-9e014fe93101")
+	)
+	(group ""
+		(uuid "a0c6f251-38b8-4fbd-b52d-422c5102dae8")
+		(members "1d936151-aaa9-4463-b6c2-d9e88e780cd0" "e4f986cf-b90d-4d52-98c0-5aca04f34675")
 	)
 )
