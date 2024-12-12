@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -295,11 +298,11 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "" np_thru_hole oval
 		(at 0 -4.32)
-		(size 3 3)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
+		(size 2.9 2.1)
+		(drill oval 2.9 2.1)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "b49f8215-8dc1-4282-991e-332ccb28c1fe")
 	)
 	(pad "1" thru_hole roundrect
@@ -319,20 +322,9 @@
 		(remove_unused_layers no)
 		(uuid "5842850b-df00-46b3-bac9-1de22cc96b70")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/Library/Library.3dshapes/Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal.step"
 		(offset
-			(xyz 0 3.9624 4.064)
+			(xyz 0 3.9624 3.8)
 		)
 		(scale
 			(xyz 1 1 1)
