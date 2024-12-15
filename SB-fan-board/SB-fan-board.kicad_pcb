@@ -2087,6 +2087,7 @@
 		(property "Reference" "R6"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "48e78998-a7fb-445b-99d6-194bebe6486c")
 			(effects
 				(font
@@ -6524,6 +6525,7 @@
 		(property "Reference" "C3"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d70fe2f8-6259-4059-a1dc-4768d52367f3")
 			(effects
 				(font
