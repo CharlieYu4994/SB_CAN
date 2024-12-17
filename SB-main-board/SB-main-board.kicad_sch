@@ -9213,6 +9213,12 @@
 		(uuid "f032884a-652d-427e-b54a-1502329c93a2")
 	)
 	(junction
+		(at 186.69 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f32d9237-0be7-47f4-a89d-c2d2720a4cfa")
+	)
+	(junction
 		(at 172.72 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9547,6 +9553,16 @@
 			(type default)
 		)
 		(uuid "15c96108-98b9-4b46-b44e-aa60c7c55a73")
+	)
+	(wire
+		(pts
+			(xy 186.69 182.88) (xy 191.77 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1636dac0-92ab-4586-a765-0e83f9455d02")
 	)
 	(wire
 		(pts
@@ -9887,6 +9903,16 @@
 			(type default)
 		)
 		(uuid "2a9ac99f-1082-4b02-9a88-7562901fb297")
+	)
+	(wire
+		(pts
+			(xy 196.85 182.88) (xy 200.66 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9f67e0-4e37-439c-94d1-dde5d29f11e3")
 	)
 	(wire
 		(pts
@@ -10630,7 +10656,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 180.34) (xy 186.69 184.15)
+			(xy 186.69 180.34) (xy 186.69 182.88)
 		)
 		(stroke
 			(width 0)
@@ -12047,6 +12073,16 @@
 			(type default)
 		)
 		(uuid "94719034-e734-47ea-b2f3-34db17001ce4")
+	)
+	(wire
+		(pts
+			(xy 186.69 182.88) (xy 186.69 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b3a312-3213-424a-9513-6bb804f43d7a")
 	)
 	(wire
 		(pts
@@ -15551,10 +15587,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c8389b9-2e7f-4a99-bbbe-dc2c7d44bc27")
 		(property "Reference" "U9"
-			(at 188.8841 181.61 0)
+			(at 189.23 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15563,7 +15598,7 @@
 			)
 		)
 		(property "Value" "MAX31865xTP"
-			(at 188.8841 184.15 0)
+			(at 189.23 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24607,7 +24642,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "Download"
 			(at 30.48 189.23 0)
 			(effects
 				(font
@@ -25061,6 +25096,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 200.66 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd6cd70-1a6b-4e0a-b0ac-637625c6c6a1")
+		(property "Reference" "#PWR015"
+			(at 207.01 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4b5d3d9-fd67-4f4b-891f-b3b686af4bc4")
+		)
+		(instances
+			(project "SB-main-board"
+				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 102.87 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25187,6 +25289,75 @@
 			(project "SB-main-board"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 194.31 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dffc9f74-32a1-48b4-ae6b-bda7e9e51a9c")
+		(property "Reference" "C36"
+			(at 193.04 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "100nF"
+			(at 195.58 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 194.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 194.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5999a159-ebbb-49c0-bfe1-6da062c371f9")
+		)
+		(pin "2"
+			(uuid "03004363-4172-489a-8096-a44e8e9458c7")
+		)
+		(instances
+			(project "SB-main-board"
+				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
+					(reference "C36")
 					(unit 1)
 				)
 			)
