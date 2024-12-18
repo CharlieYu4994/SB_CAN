@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.4"
+      "Version": "8.0.7"
     },
-    "CreationDate": "2024-12-12T23:00:46+08:00"
+    "CreationDate": "2024-12-18T08:38:47+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -82,6 +82,7 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Material": "Liquid Photo",
       "Name": "Top Silk Screen"
     },
     {
@@ -91,6 +92,7 @@
     {
       "Type": "SolderMask",
       "Thickness": 0.01,
+      "Material": "Liquid Ink",
       "Name": "Top Solder Mask"
     },
     {
@@ -113,6 +115,7 @@
     {
       "Type": "SolderMask",
       "Thickness": 0.01,
+      "Material": "Liquid Ink",
       "Name": "Bottom Solder Mask"
     },
     {
@@ -121,6 +124,7 @@
     },
     {
       "Type": "Legend",
+      "Material": "Liquid Photo",
       "Name": "Bottom Silk Screen"
     }
   ]

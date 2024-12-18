@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.4"
+      "Version": "8.0.7"
     },
-    "CreationDate": "2024-12-13T01:33:19+08:00"
+    "CreationDate": "2024-12-18T08:34:55+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "SB-main-board",
       "GUID": "53422d6d-6169-46e2-9d62-6f6172642e6b",
-      "Revision": "B0"
+      "Revision": "B1"
     },
     "Size": {
       "X": 53.1,
