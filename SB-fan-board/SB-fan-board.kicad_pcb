@@ -2881,7 +2881,7 @@
 			(pintype "passive")
 			(uuid "267f6fa7-b0a0-4628-8a9f-887746421396")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Murata_DFE201610P.wrl"
+		(model "${KIPRJMOD}/Library/Library.3dshapes/L_Murata_DFE201610P.step"
 			(offset
 				(xyz 0 0 0)
 			)
