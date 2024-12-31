@@ -68,6 +68,17 @@
 	)
 	(attr smd)
 	(fp_rect
+		(start -0.8658 -0.26)
+		(end 0.8658 0.26)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "2056dc2b-b0e7-4822-bfb6-6a2330bf4839")
+	)
+	(fp_rect
 		(start -0.9906 -0.3556)
 		(end 0.9906 0.3556)
 		(stroke
@@ -77,16 +88,6 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "7dca9e2c-a674-40ef-a852-08b9943032cc")
-	)
-	(fp_line
-		(start 0.472 0.8676)
-		(end 0.472 1.3676)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e2b4f7c8-df75-41ed-9654-d0f001a9e95d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
@@ -120,5 +121,33 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "457b1602-afcb-4a07-8390-b837b8a498ad")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "9123769f-d47b-427b-b740-25f9cd7756e0")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.8658 -0.285) (xy -0.8658 0.285) (xy 0.8658 0.285) (xy 0.8658 -0.285)
+			)
+		)
 	)
 )
