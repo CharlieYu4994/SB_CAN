@@ -18084,7 +18084,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "220mR"
+		(property "Value" "200mR"
 			(at 224.79 93.98 0)
 			(effects
 				(font
