@@ -1,6 +1,6 @@
 "Reference","Value","Datasheet","Footprint","Qty","DNP"
 "C1,C6,C8","100nF","~","Capacitor_SMD:C_0603_1608Metric","3",""
-"C2","4.7uF","~","Capacitor_SMD:C_0805_2012Metric","1",""
+"C2","4.7uF","~","Capacitor_SMD:C_1206_3216Metric","1",""
 "C3","220nF","~","Capacitor_SMD:C_0603_1608Metric","1",""
 "C4,C9","22uF","~","Capacitor_SMD:C_0805_2012Metric","2",""
 "C5","1uF","~","Capacitor_SMD:C_0603_1608Metric","1",""

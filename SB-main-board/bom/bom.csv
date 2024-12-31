@@ -5,7 +5,7 @@
 "C1,C4,C5,C7,C8,C9,C10,C11,C12,C14,C15,C20,C21,C23,C24,C27,C28,C29,C30,C32,C34,C35,C36","100nF","Capacitor_SMD:C_0402_1005Metric","23",""
 "C6,C13,C31","1uF","Capacitor_SMD:C_0402_1005Metric","3",""
 "C17","1uF","Capacitor_SMD:C_0603_1608Metric","1",""
-"C16","2.2uF","Capacitor_SMD:C_0805_2012Metric","1",""
+"C16","2.2uF","Capacitor_SMD:C_1206_3216Metric","1",""
 "C19","2.2uF","Capacitor_SMD:C_0603_1608Metric","1",""
 "C26","4.7uF","Capacitor_SMD:C_0805_2012Metric","1",""
 "L1","10uH","Library:L_Changjiang_FTC303020D","1",""
