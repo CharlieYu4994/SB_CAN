@@ -1,6 +1,12 @@
 name: KiCad Jobset Automation
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  push:
+    paths:
+      - '**/*.kicad_pro'
+      - '**/*.kicad_pcb'
+      - '**/*.kicad_sch'
 
 jobs:
   run-kicad-jobset:
@@ -21,3 +27,17 @@ jobs:
         mkdir output
         find . -name "*.kicad_pro" -exec \
           kicad-cli jobset run -f ./actions.kicad_jobset {} \;
+
+    - name: Compress Output Folders
+      run: |
+        apt-get update && apt-get install -y zip
+        cd output
+        find * -maxdepth 0 -type d -print0 | while IFS= read -r -d '' dir; do
+          zip -qr "${dir}.zip" "$dir"
+        done
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: kicad-zips
+        path: output/*.zip
