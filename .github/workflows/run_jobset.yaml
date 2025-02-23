@@ -30,9 +30,8 @@ jobs:
 
     - name: Compress Output Folders
       run: |
-        apt-get update && apt-get install -y zip
         cd output
-        find * -maxdepth 0 -type d -print0 | while IFS= read -r -d '' dir; do
+        find * -maxdepth 0 -type d | while read dir; do
           zip -qr "${dir}.zip" "$dir"
         done
 
