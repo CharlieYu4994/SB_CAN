@@ -6,7 +6,7 @@ jobs:
   run-kicad-jobset:
     name: Run KiCad Jobset
     runs-on: ubuntu-latest
-    container: kicad/kicad:latest
+    container: kicad/kicad:9.0
 
     permissions:
       contents: read
