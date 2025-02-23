@@ -1,0 +1,24 @@
+name: KiCad Jobset Automation
+
+on: workflow_dispatch
+
+jobs:
+  run-kicad-jobset:
+    name: Run KiCad Jobset
+    runs-on: ubuntu-latest
+    container: kicad/kicad:latest
+
+    permissions:
+      contents: read
+      packages: none
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Run KiCad CLI Jobset
+      run: |
+        mkdir output
+        kicad-cli jobset run -f ./actions.kicad_jobset ./*/*.kicad_pro
