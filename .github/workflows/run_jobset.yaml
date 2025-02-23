@@ -19,4 +19,5 @@ jobs:
     - name: Run KiCad CLI Jobset
       run: |
         mkdir output
-        kicad-cli jobset run -f ./actions.kicad_jobset ./*/*.kicad_pro
+        find . -name "*.kicad_pro" -exec \
+          kicad-cli jobset run -f ./actions.kicad_jobset {} \;
