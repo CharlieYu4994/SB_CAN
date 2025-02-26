@@ -1,0 +1,39 @@
+name: KiCad Jobset Automation
+
+on: 
+  workflow_dispatch:
+  push:
+    paths:
+      - '**/*.kicad_pro'
+      - '**/*.kicad_pcb'
+      - '**/*.kicad_sch'
+
+jobs:
+  run-kicad-jobset:
+    name: Run KiCad Jobset
+    runs-on: kicad
+
+    steps:
+    - name: Checkout repository
+      uses: https://gitea.com/actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Run KiCad CLI Jobset
+      run: |
+        mkdir output
+        find . -name "*.kicad_pro" -exec \
+          kicad-cli jobset run -f ./actions.kicad_jobset {} \;
+
+    - name: Compress Output Folders
+      run: |
+        cd output
+        find * -maxdepth 0 -type d | while read dir; do
+          zip -qr "${dir}.zip" "$dir"
+        done
+
+    - name: Upload Artifacts
+      uses: https://gitea.com/actions/upload-artifact@v4
+      with:
+        name: kicad-zips
+        path: output/*.zip
