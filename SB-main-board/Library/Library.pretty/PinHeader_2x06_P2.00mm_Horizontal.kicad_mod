@@ -1,7 +1,7 @@
 (footprint "PinHeader_2x06_P2.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole angled pin header, 2x06, 2.00mm pitch, 4.2mm pin length, double rows")
 	(tags "Through hole angled pin header THT 2x06 2.00mm double row")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "12fe2310-0d5c-4d0e-8933-9ced5b72146f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -791,6 +781,7 @@
 		(remove_unused_layers no)
 		(uuid "a2e1b864-9bff-48fb-a88b-550b1c4a445c")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_2x06_P2.00mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)

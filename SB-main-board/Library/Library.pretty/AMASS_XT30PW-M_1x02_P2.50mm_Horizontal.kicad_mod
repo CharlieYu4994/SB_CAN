@@ -1,7 +1,7 @@
 (footprint "AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 2.375 180)
@@ -21,19 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0.1725 -3.597501 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f971864f-3167-46e1-b257-d068b598fbd2")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -142,7 +129,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Eco2.User")
 		(uuid "cdd0aae6-1ae2-446c-b1db-fbc4c9439c07")
 	)
@@ -193,7 +180,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "88e40c29-af79-4206-85c3-5e14b09bcdcb")
 	)
@@ -252,6 +239,7 @@
 			"cdd0aae6-1ae2-446c-b1db-fbc4c9439c07" "d9d85a41-e38f-4846-8c34-95923c00f2c3"
 		)
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/Library/Library.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
 		(offset
 			(xyz 0 -2.2 0)

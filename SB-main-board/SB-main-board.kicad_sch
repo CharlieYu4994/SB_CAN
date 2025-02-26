@@ -3161,6 +3161,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -4616,7 +4625,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:TMC2208-LA"
+		(symbol "Library:TMC2209-LA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4683,7 +4692,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TMC2208-LA_1_0"
+			(symbol "TMC2209-LA_1_0"
 				(pin power_in line
 					(at -2.54 -27.94 90)
 					(length 2.54)
@@ -4703,7 +4712,7 @@
 					)
 				)
 			)
-			(symbol "TMC2208-LA_1_1"
+			(symbol "TMC2209-LA_1_1"
 				(rectangle
 					(start -12.7 25.4)
 					(end 12.7 -25.4)
@@ -16913,6 +16922,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 49.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea8fac10-8c76-4474-b3b2-3d996819b2e1")
 		)
@@ -19270,7 +19288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:TMC2208-LA")
+		(lib_id "Library:TMC2209-LA")
 		(at 189.23 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20753,6 +20771,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 267.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 267.97 24.13 0)
 			(effects
 				(font
@@ -22646,7 +22673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 59.69 241.3 0)
 			(effects
 				(font

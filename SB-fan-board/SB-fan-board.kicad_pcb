@@ -192,7 +192,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -207,7 +207,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/58e37068-7286-4809-868d-2edb45705359")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -395,7 +395,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -410,7 +410,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/b55d4ec5-fc2a-4da6-ac35-3f67f32f643f")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -636,7 +636,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -651,7 +651,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/94b55506-3518-4f86-a8b8-49160028aed8")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -854,7 +854,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/3058c5b8-de4a-4ace-9a22-1032d803a90e")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -961,7 +961,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9662de0c-b43e-4eeb-aaf4-fd31092fb51f")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1123,7 +1123,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1138,7 +1138,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/3da0b3c8-16fa-4a04-82b1-0914bdfd2543")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1410,7 +1410,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1425,7 +1425,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/2767b744-0b34-442a-9ece-9e4e8f10f47a")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1613,7 +1613,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1628,7 +1628,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/d1501dba-df13-47cc-8874-5cf3b18cd558")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1816,7 +1816,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1831,7 +1831,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e754c270-43ea-4f45-b691-42279d1a7674")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2019,7 +2019,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2034,7 +2034,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/84197924-d4e6-4587-bada-6f67a549d2d1")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2237,7 +2237,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d6c7bd3e-f065-4df7-9a5b-4117dc5bfa7f")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2388,7 +2388,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2403,7 +2403,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/51e8d674-222f-41c9-905c-0f85d4807cdc")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2590,7 +2590,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2604,7 +2604,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/7bed61af-8947-4d9b-a108-957267736a3e")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3363,7 +3363,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3378,7 +3378,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/5e344f5a-2877-42da-a96f-e086cf7cd756")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3566,7 +3566,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3581,7 +3581,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e3caba2d-e2fd-4c70-a9b4-5bda68d66ce0")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3769,7 +3769,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3784,7 +3784,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/affea1ae-9998-423b-8e46-751142379c0f")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3987,7 +3987,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6021e375-00e2-42af-b03e-2f008fa24137")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4238,7 +4238,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/c227943b-8699-4d6b-a06d-56f9a60720dc")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5041,7 +5041,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0769dd0f-cc97-4931-996a-82dd6795664b")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -5133,7 +5133,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5148,7 +5148,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/1da944d0-d86c-4c45-8930-90606e9430a9")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5336,7 +5336,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5351,7 +5351,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/3293e648-4565-40a0-ac99-90debf745d03")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5858,7 +5858,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5873,7 +5873,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8f800e5b-2df2-43bf-8ca7-a47a64b800f5")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6061,7 +6061,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6076,7 +6076,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/27b1795e-faae-4c1b-8d2c-c3433a54081c")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6264,7 +6264,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6279,7 +6279,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/857416ac-1eeb-4327-9447-ba770ded63a7")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6482,7 +6482,7 @@
 		)
 		(property ki_fp_filters "Texas*HSOP*1EP*")
 		(path "/251b24d5-a27f-4f62-b5ff-c931fc778299")
-		(sheetname "根目录")
+		(sheetname "/")
 		(sheetfile "SB-fan-board.kicad_sch")
 		(attr smd)
 		(fp_line

@@ -1,7 +1,7 @@
 (footprint "JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST PH series connector, B4B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST PH vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 180)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4ca41717-fc17-48fb-9572-2118f6552054")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 180)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -448,45 +438,46 @@
 	(pad "1" smd roundrect
 		(at -3 0.5 180)
 		(size 1 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1ab91bc0-44a7-4c5a-9fac-884b2173b503")
 	)
 	(pad "2" smd roundrect
 		(at -1 0.5 180)
 		(size 1 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "529d8b82-8f7f-4507-a217-5f93d1a56aac")
 	)
 	(pad "3" smd roundrect
 		(at 1 0.5 180)
 		(size 1 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "247601ad-9666-442c-a352-4575c6cc3d1b")
 	)
 	(pad "4" smd roundrect
 		(at 3 0.5 180)
 		(size 1 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "519d1c63-89fe-488b-9342-89cb18c3fd30")
 	)
 	(pad "MP" smd roundrect
 		(at -5.4 -1.75 180)
 		(size 1.6 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15625)
 		(uuid "d6fa4027-b8f2-40b2-ab11-d6b199142b11")
 	)
 	(pad "MP" smd roundrect
 		(at 5.4 -1.75 180)
 		(size 1.6 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15625)
 		(uuid "726fec59-c0be-4597-b284-b88beff4ae67")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)

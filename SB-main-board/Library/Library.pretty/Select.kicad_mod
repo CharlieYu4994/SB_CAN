@@ -1,7 +1,7 @@
 (footprint "Select"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8ec32710-2835-40d4-8b29-b147199b6628")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f7f94d2a-e06d-4c08-b47c-a978766ae268")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.0508)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "2056dc2b-b0e7-4822-bfb6-6a2330bf4839")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7dca9e2c-a674-40ef-a852-08b9943032cc")
 	)
@@ -104,21 +91,21 @@
 	(pad "1" smd roundrect
 		(at -0.6858 0)
 		(size 0.56 0.62)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2782fa6b-9686-475f-85ec-a3d6291244ba")
 	)
 	(pad "2" smd roundrect
 		(at 0 0)
 		(size 0.56 0.62)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8310d333-d0ea-4049-ac75-7991280f0d82")
 	)
 	(pad "3" smd roundrect
 		(at 0.6858 0)
 		(size 0.56 0.62)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "457b1602-afcb-4a07-8390-b837b8a498ad")
 	)
@@ -140,6 +127,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -150,4 +141,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )
